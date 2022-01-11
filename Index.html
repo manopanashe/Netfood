@@ -8,6 +8,7 @@
     <title>Document</title>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.js">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
@@ -34,6 +35,7 @@
         display: grid;
         color: white;
     }
+   
 </style>
 
 <body>
@@ -58,6 +60,7 @@
 
                         Fujitsu Support Portal
                     </h1>
+
                 </div>
             </div>
         </div>
@@ -65,13 +68,52 @@
         <!----section One-->
 
 
-        <div class="row">
-            <div class="col-lg-12">
-                <section id="section1">
-                    <h1>Places to Go</h1>
+        <div class="container-fluid">
+            <h1>Places to check Out</h1>
+            <div class="row pt-1" id="section1">
+                
+              <div class="col-xs-12 col-lg-4">
+                  <div class="row">
+                      <img src="C:\Users\manop\Documents\netfood\Netfood\solstice-hannan-ianB8yPCQSc-unsplash.jpg" width="300">
+                      <div class="card-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-lg-4">
+                  <div class="row">
+                      <img src="C:\Users\manop\Documents\netfood\Netfood\solstice-hannan-ianB8yPCQSc-unsplash.jpg" width="300">
+                      <div class="card-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-lg-4">
+                  <div class="row">
+                      <img src="C:\Users\manop\Documents\netfood\Netfood\solstice-hannan-ianB8yPCQSc-unsplash.jpg" width="300">
+                      <div class="card-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                  </div>
+              </div>
 
-                </section>
-            </div>
+
+                            </div>
         </div>
 
 
@@ -81,8 +123,18 @@
                 <section id="section2">
                     <h1>Client Standard Responses </h1>
                     <p>Search for the standard responses used for clients on request comms below:</p>
+                     <button class="btn btn-secondary" id="toggle1">
+                        <i class="fa fa-angle-double-down"   style="font-size: 25px;" valign="down"></i> 
+                     </button> 
+                      <div class="dropdownMenu1" style="display: none;">
+                          <option>Email</option>
+                          <option>Webinar</option>
+                          <option>Forms</option>
+                          <option>SFDC</option>
+                          <option>More Options..</option>
+                      </div>
                     <input type="text" placeholder="Search">
-                    <button type="submit">Search</button>
+                    <button class="btn btn-secondary" type="submit">Search</button>
                 </section>
             </div>
         </div>
@@ -93,8 +145,9 @@
                 <section id="section3">
                     <h1>Useful Links</h1>
                     <p>Access helpful Documents and books </p>
+                       <i class="fa fa-angle-double-down" style="font-size: 25px;" valign="down"></i>
                     <input type="text" placeholder="Search">
-                    <button type="submit">Search</button>
+                    <button class="btn btn-secondary" type="submit">Search</button>
                 </section>
             </div>
         </div>
